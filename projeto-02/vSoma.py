@@ -10,5 +10,5 @@ while k < indice:
     k= k+1
     soma= soma + k
 print('......................')
-print(f"o Resultado da soma é: {soma}")
+print(f"O Resultado da soma é: {soma}")
 print('.......................')

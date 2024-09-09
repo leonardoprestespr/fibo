@@ -33,7 +33,7 @@ def proximo_f():
     return 20
 
 
-print('..................RESULTADO...................')
+print('..............R E S U L T A D O...............')
 print('a) 1, 3, 5, 7, ___')
 print(f'Proximo numero da sequência: {proximo_a()}')
 print('..............................................')

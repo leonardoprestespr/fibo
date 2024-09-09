@@ -26,7 +26,7 @@ def fibonacci_check ():
       user_input = input("Digite um número para verificar se pertence a sequência de Fibonacci (ou escreva 'sair' para encerrar): ")
       
       if user_input.lower() == 'sair': 
-          print('Encerrando o programa.....')
+          print('Encerrando o programa........')
           break
 #tenta converter a entrada para um número inteiro
       try: 
@@ -34,7 +34,7 @@ def fibonacci_check ():
           resultado = checar_numero(numero)
           print(resultado)
       except ValueError:
-          print("Entrada inválida. Por favor, digite um número válido ou 'sair' para encerrar. ")
+          print("!! Entrada inválida. Por favor, digite um número válido ou 'sair' para encerrar. ")
 
 fibonacci_check()
           
